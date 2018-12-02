@@ -16,6 +16,7 @@ with open("input.txt", 'r') as inputfile:
 print(twoLetterOccurrences, " * ", threeLetterOccurrences, " = ", twoLetterOccurrences * threeLetterOccurrences)
 
 # PART TWO
+# O(n * m) where n is the number of lines and m is the maximum length of a line
 
 seenBoxIds = set()
 duplicateBoxId = None
